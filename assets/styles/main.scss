@@ -1,0 +1,46 @@
+@import 'base/_reset';
+@import 'base/_variables';
+@import 'base/_mixins';
+
+@import 'components/_navbar';
+@import 'components/_hero';
+@import 'components/_features';
+@import 'components/_services';
+@import 'components/_team';
+@import 'components/_testimonials';
+@import 'components/_footer';
+
+@import 'pages/_home';
+@import 'pages/_contact';
+
+// Global styles
+body {
+    font-family: $font-family-base;
+    color: $text-color;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: $primary-color;
+    text-decoration: none;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+// Utility classes
+.text-center {
+    text-align: center;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+.py-5 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}

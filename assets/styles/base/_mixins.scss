@@ -1,0 +1,27 @@
+// This file contains reusable style mixins for the project.
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin transition($property, $duration) {
+  transition: $property $duration ease;
+}
+
+@mixin box-shadow($shadow) {
+  box-shadow: $shadow;
+}
+
+@mixin border-radius($radius) {
+  border-radius: $radius;
+}
+
+@mixin responsive-font-size($size) {
+  font-size: $size;
+
+  @media (max-width: 768px) {
+    font-size: ($size * 0.8);
+  }
+}

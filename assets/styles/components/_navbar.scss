@@ -1,0 +1,83 @@
+// Navbar styles for the Hamurabi Law Firm website
+
+$navbar-height: 60px;
+$navbar-background: #ffffff;
+$navbar-link-color: #333333;
+$navbar-link-hover-color: #007bff;
+
+.navbar {
+  height: $navbar-height;
+  background-color: $navbar-background;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  
+  &__brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: $navbar-link-color;
+    text-decoration: none;
+    
+    &:hover {
+      color: $navbar-link-hover-color;
+    }
+  }
+
+  &__links {
+    display: flex;
+    list-style: none;
+    
+    &--item {
+      margin: 0 15px;
+      
+      &__link {
+        color: $navbar-link-color;
+        text-decoration: none;
+        transition: color 0.3s;
+        
+        &:hover {
+          color: $navbar-link-hover-color;
+        }
+      }
+    }
+  }
+
+  &__toggle {
+    display: none;
+    cursor: pointer;
+    
+    &__icon {
+      font-size: 1.5rem;
+      color: $navbar-link-color;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+
+    &__toggle {
+      display: block;
+    }
+
+    &__links {
+      display: none;
+      flex-direction: column;
+      width: 100%;
+      
+      &--item {
+        width: 100%;
+        text-align: center;
+        
+        &__link {
+          padding: 10px 0;
+          width: 100%;
+        }
+      }
+    }
+  }
+}

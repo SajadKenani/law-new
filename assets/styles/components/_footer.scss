@@ -1,0 +1,56 @@
+// Footer styles for the Hamurabi Law Firm website
+.footer {
+    background-color: #343a40; // Dark background for the footer
+    color: #ffffff; // White text color
+    padding: 40px 0; // Padding for the footer
+
+    .footer-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+
+        .footer-logo {
+            img {
+                max-width: 150px; // Logo size
+            }
+        }
+
+        .footer-links {
+            display: flex;
+            flex-direction: column;
+
+            a {
+                color: #ffffff; // Link color
+                text-decoration: none;
+                margin: 5px 0;
+                transition: color 0.3s;
+
+                &:hover {
+                    color: #007bff; // Change color on hover
+                }
+            }
+        }
+
+        .footer-contact {
+            text-align: right;
+
+            p {
+                margin: 5px 0; // Margin for contact info
+            }
+        }
+    }
+
+    .footer-bottom {
+        text-align: center;
+        padding: 20px 0;
+        border-top: 1px solid rgba(255, 255, 255, 0.1); // Top border for separation
+
+        p {
+            margin: 0; // Reset margin
+            font-size: 14px; // Font size for copyright text
+        }
+    }
+}
