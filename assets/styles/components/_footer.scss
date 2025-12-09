@@ -1,7 +1,7 @@
 // Footer styles for the Hamurabi Law Firm website
 .footer {
-    background-color: #343a40; // Dark background for the footer
-    color: #ffffff; // White text color
+    background-color: #120901; // Deep brown footer background
+    color: $light-color; // Cream text color
     padding: 40px 0; // Padding for the footer
 
     .footer-content {
@@ -23,13 +23,13 @@
             flex-direction: column;
 
             a {
-                color: #ffffff; // Link color
+                color: $light-color; // Link color
                 text-decoration: none;
                 margin: 5px 0;
                 transition: color 0.3s;
 
                 &:hover {
-                    color: #007bff; // Change color on hover
+                    color: $warning-color; // Change color on hover
                 }
             }
         }

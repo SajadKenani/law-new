@@ -6,31 +6,31 @@
 /* ============= CSS VARIABLES ============= */
 :root {
   /* Primary Colors */
-  --color-primary: #1e40af;
-  --color-primary-dark: #1e3a8a;
-  --color-primary-light: #3b82f6;
-  --color-secondary: #0f172a;
-  --color-accent: #d97706;
+  --color-primary: #5c3710;
+  --color-primary-dark: #3a2308;
+  --color-primary-light: #d4af37;
+  --color-secondary: #7c4c1c;
+  --color-accent: #d4af37;
   
   /* Neutral Colors */
-  --color-white: #ffffff;
-  --color-black: #000000;
-  --color-gray-50: #f8fafc;
-  --color-gray-100: #f1f5f9;
-  --color-gray-200: #e2e8f0;
-  --color-gray-300: #cbd5e1;
-  --color-gray-400: #94a3b8;
-  --color-gray-500: #64748b;
-  --color-gray-600: #475569;
-  --color-gray-700: #334155;
-  --color-gray-800: #1e293b;
-  --color-gray-900: #0f172a;
+  --color-white: #fffdf8;
+  --color-black: #1b1003;
+  --color-gray-50: #fdf7ee;
+  --color-gray-100: #f7ede0;
+  --color-gray-200: #f0e2cf;
+  --color-gray-300: #e1c9b1;
+  --color-gray-400: #cdb493;
+  --color-gray-500: #a87b53;
+  --color-gray-600: #8c5e2a;
+  --color-gray-700: #66401e;
+  --color-gray-800: #3e240e;
+  --color-gray-900: #1f1206;
   
   /* Semantic Colors */
-  --color-success: #10b981;
-  --color-warning: #f59e0b;
-  --color-error: #ef4444;
-  --color-info: #3b82f6;
+  --color-success: #1e7d42;
+  --color-warning: #d4af37;
+  --color-error: #a32f2f;
+  --color-info: #a67c1f;
   
   /* Typography */
   --font-primary: 'Tajawal', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -492,7 +492,7 @@ ol {
 .hero__overlay {
   position: absolute;
   inset: 0;
-  background: linear-gradient(135deg, rgba(15, 23, 42, 0.95) 0%, rgba(30, 41, 59, 0.9) 100%);
+  background: linear-gradient(135deg, rgba(40, 42, 15, 0.514) 0%, rgba(56, 59, 30, 0.658) 100%);
 }
 
 .hero__content {

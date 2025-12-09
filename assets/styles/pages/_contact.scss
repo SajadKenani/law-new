@@ -1,11 +1,11 @@
 // Contact page styles
 
-$contact-bg-color: #f9f9f9;
-$contact-text-color: #333;
-$contact-form-bg: #fff;
-$contact-form-border: #ddd;
-$contact-button-bg: #007bff;
-$contact-button-color: #fff;
+$contact-bg-color: #fdf4e6;
+$contact-text-color: $dark-color;
+$contact-form-bg: #fffaf2;
+$contact-form-border: #d8b27f;
+$contact-button-bg: $warning-color;
+$contact-button-color: $dark-color;
 
 .contact {
   background-color: $contact-bg-color;
@@ -33,7 +33,7 @@ $contact-button-color: #fff;
 
       i {
         font-size: 2rem;
-        color: $contact-button-bg;
+        color: $warning-color;
         margin-bottom: 10px;
       }
 
